@@ -1,0 +1,77 @@
+/* Var Used */
+:root {
+  --primary-color: #0d18bb;
+  --secondary-color: #e0b354;
+  --dark-grey: #2b2b2b;
+  --background-color: #0c59ccda;
+  --visitedcolor: #f3081c;
+  --activecolor: #f3f3f2;
+  --background-color2: LightGrey;
+  --border-color: #000;
+  --button-color: #0bad19;
+  --fill1: #edc655;
+  --fill2: #fcffad;
+  --fill3: #f76414;
+  --font-weight1: 400;
+  --font-weight2: 700;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* Sets the font size to 16px */
+  line-height: 1.6;
+
+  /* Sets the line-height to 1.6 */
+
+  background-color: var(--background-color);
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: var(--font-weight1);
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: var(--font-weight2);
+  color: var(--button-color);
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: var(--font-weight2);
+}
+
+.h1about {
+  text-align: center;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:visited {
+  /* visited link */
+  color: var(--visitedcolor);
+}
+.page-header {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+.page-footer {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.logo-svg {
+  width: 50%;
+  height: 50%;
+}
+
+
+
