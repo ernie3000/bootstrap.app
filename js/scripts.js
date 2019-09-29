@@ -39,10 +39,10 @@
     return pokemon.type.name;
   });
   
-      }).catch(function(e){
-        console.error(e);
-      });
-    }
+    //   }).catch(function(e){
+    //     console.error(e);
+    //   });
+    // }
   
     return {
       add: add,
